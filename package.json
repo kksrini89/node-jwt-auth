@@ -1,0 +1,30 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt-auth",
+    "node-auth",
+    "express-auth"
+  ],
+  "author": "Srinivasan K K",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.13",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
